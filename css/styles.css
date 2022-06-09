@@ -127,8 +127,23 @@ display: flex;
 }
 
 .hero {
-  padding: 200px 0;
-  background: #2F303A;
+  max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+.overlay {
+padding-top: 200px;
+  height: 600px;
+      background-color: #2F303A66;
+  background-image: linear-gradient(
+    to right, 
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("../images/hero-Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-title {
@@ -161,6 +176,7 @@ margin-right: auto;
   cursor: pointer;
 border: none;
 border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
