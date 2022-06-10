@@ -91,9 +91,15 @@ display: flex;
 
 .nav-link,
 .link.contact {
-  display: block;
+  display: flex;
+align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.contact-icon {
+  fill: currentColor;
+
 }
 
 .contacts {
@@ -206,6 +212,19 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .text {
   line-height: 1.71;
 }
+
+.features-box {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
 
 .section-title {
   font-weight: 700;
