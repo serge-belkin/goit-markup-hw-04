@@ -297,16 +297,42 @@ margin-left: 30px;
 .client-box {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid currentColor;
   border-radius: 4px;
   display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .client-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
+.client-list-item{
+  
+}
+
+.client-link {
+  color: #AFB1B8;
+}
+
+.client-link:visited {
+color: #AFB1B8;
+}
+
+.client-link:hover,
+.client-link:focus
+ {
+color: var(--accent-color);
+fill: var(--accent-color);
+}
+
+.client-logo {
+  --color1: currentColor;
+}
+
+
 
 /* Стили футера */
 
