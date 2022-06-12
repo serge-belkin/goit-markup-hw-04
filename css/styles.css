@@ -288,6 +288,25 @@ margin-left: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
+}
+
+.team-sm-list {
+  justify-content: center;
+}
+
+.team-sm-link {
+color: #AFB1B8;
+}
+
+.team-sm-link:hover,
+.team-sm-link:focus {
+background-color: var(--accent-color);
+color: var(--tertiary-text-color);
+}
+
+.team-sm-icon {
+  --color1:currentColor
 }
 
 .client-list {
@@ -391,22 +410,24 @@ footer {background-color: #2F303A;}
   margin-right: 70px;
 }
 
-.footer-sm-list {
+.footer-sm-list,
+.team-sm-list {
   display: flex;
 }
 
-.footer-sm-item {
-
-}
-
-.footer-sm-link {
+.footer-sm-link,
+.team-sm-link {
     display: block;
       width: 44px;
       height: 44px;
       border-radius: 50%;
       padding: 12px;
-      background-color: rgba(255, 255, 255, 0.1);
-  color: var(--tertiary-text-color);
+;
+}
+
+.footer-sm-link {
+        background-color: rgba(255, 255, 255, 0.1);
+          color: var(--tertiary-text-color)
 }
 
 .footer-sm-link:hover,
@@ -414,7 +435,8 @@ footer {background-color: #2F303A;}
   background-color: var(--accent-color);
 }
 
-.footer-sm-item:not(:last-child) {
+.footer-sm-item:not(:last-child),
+.team-sm-item:not(:last-child) {
   margin-right: 10px;
 }
 
