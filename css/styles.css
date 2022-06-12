@@ -371,6 +371,57 @@ footer {background-color: #2F303A;}
   color: var(--tertiary-text-color);
 }
 
+.sm-title {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--tertiary-text-color);
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+
+.footer-box {
+  display: flex;
+}
+
+.addres-box {
+  margin-right: 70px;
+}
+
+.footer-sm-list {
+  display: flex;
+}
+
+.footer-sm-item {
+
+}
+
+.footer-sm-link {
+    display: block;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      padding: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+  color: var(--tertiary-text-color);
+}
+
+.footer-sm-link:hover,
+.footer-sm-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-sm-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-sm-icon {
+  --color1:currentColor
+}
+
 /* Стили для мейна страницы "Портфолио" */
 
 .filter {
