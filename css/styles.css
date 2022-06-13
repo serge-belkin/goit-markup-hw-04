@@ -48,8 +48,6 @@ ul {
 
 /* Стили хедера */
 
-
-
 .studio-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -86,9 +84,21 @@ display: flex;
   letter-spacing: 0.02em;
 }
 
-.nav-list .list-item:not(:last-child),
-.contacts .list-item:not(:last-child) {
+.nav-list .list-item:not(:last-child) {
  margin-right: 50px;
+}
+
+.contacts .list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.contact > .list-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  --color4: currentColor;
 }
 
 .nav-link,
@@ -328,9 +338,6 @@ color: var(--tertiary-text-color);
   margin-right: 30px;
 }
 
-.client-list-item{
-  
-}
 
 .client-link {
   color: #AFB1B8;
